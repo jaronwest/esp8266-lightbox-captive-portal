@@ -1,6 +1,10 @@
 # ESP8266 Lightbox controller with captive portal 
 
-## This project is setup using an ESP8266 (such as 12E or nodeMCU) and WS2812 addressable LEDS
+https://github.com/yash-sanghvi/ESP32/tree/master/Captive_Portal
+
+Big thank you and credit to yash-sanghvi for basis of this project with addition of LED control and updated for ESP8266
+
+## This project is setup using an ESP8266 (such as 12E or nodeMCU) and WS2812 addressable LEDs
 
 This project was used in a lightbox to make a top and bottom zone for two colors to be picked. Instead of connecting to an existing wifi network, or if there is no network, a soft access point is setup with a simple color picker UI. Upon setting your color, follow the link back home to make a new seletion.
 
