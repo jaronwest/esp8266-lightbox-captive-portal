@@ -13,14 +13,14 @@ This project was used in a lightbox to make a top and bottom zone for two colors
 - Set your board pin for LED signal to WS2812 (neopixels)
 - Set the count of LEDs
 - Choose your default colors, it can be any of the option values found in the html (use lower case)
-- add color options to the html if you like, then define them below in function handlePixelColor
-- in the function handleStrip the first pixel is being set to black because I did not include a level shifter up to 5v, which can cause flickering or other issues, so I covered it in electric tape set it to black
+- Add color options to the html if you like, then define them below in function handlePixelColor
+- In the function handleStrip the first pixel is being set to black because I did not include a level shifter up to 5v, which can cause flickering or other issues, so I covered it in electric tape set it to black
 
 ## Connecting to the UI
-- select the network from your phone or computer that you set in the arduino_secrets.h file
-- you may get an alert about not having internet connection when connecting
-- the captive portal should automatically pop up and allow selecting a top and bottom color
-- save to update the colors
-- click the link to return home and you can continue changing the color
-- using "back" seems to cause some issues and may reset your color back to default and lose the AP until reset, so using the link back home is more reliable
-- when done you can say "don't use this network" or "forget it" to disconnect (remember this network has no connection to the internet)
+- Select the network from your phone or computer that you set in the arduino_secrets.h file
+- You may get an alert about not having internet connection when connecting
+- The captive portal should automatically pop up and allow selecting a top and bottom color
+- Save to update the colors
+- Click the link to return home and you can continue changing the color
+- Using "back" seems to cause some issues and may reset your color back to default and lose the AP until reset, so using the link back home is more reliable
+- When done you can say "don't use this network" or "forget it" to disconnect (remember this network has no connection to the internet)
