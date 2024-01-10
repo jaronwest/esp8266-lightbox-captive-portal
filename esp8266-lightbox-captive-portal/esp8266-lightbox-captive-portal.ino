@@ -13,6 +13,9 @@ String ssid = AP_SSID;
 #define LED_PIN D4
 // update this for your total LED count
 #define LED_COUNT 22
+// set the start and end of the LEDs you'll designate as "bottom", all other LEDs will be considered "top"
+#define LED_BOTTOM_START 9
+#define LED_BOTTOM_END 19
 
 DNSServer dnsServer;
 AsyncWebServer server(80);
